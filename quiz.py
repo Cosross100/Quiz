@@ -6,8 +6,7 @@ question3 = "Wer hat die Mona Lisa gemalt?"
 question4 = "Welche Abkürzung hat der Flughafen in Los Angeles (L.A. International Airport)"
 question5 = "In welchem Jahr wurde Abraham Lincoln geboren?"
 
-#Punktestand
-score = 1
+
 
 #intro
 print("Wilkommen zum Quiz!")
@@ -24,7 +23,7 @@ def frage1():
     if answer1.lower() == "wal" or answer1.lower() == "3":
         print("Das ist Korrekt!")
         print(" ")
-        score == 1
+        
         
     else:
         print("Das ist leider nicht richtig.")
@@ -39,7 +38,7 @@ def frage2():
     if answer2.lower() == "internationales phonetisches alphabet" or answer2.lower() == "2":
         print("Das ist richtig!")
         print(" ")
-        score == score+1
+        
         
     else:
         print("Das ist leider nicht richtig.")
@@ -55,7 +54,7 @@ def frage3():
     if answer3.lower() == "leonardo davinci" or answer3.lower() == "1":
         print("Das ist korrekt!")
         print(" ")
-        score == score+1
+        
         
     else:
         print("Das ist leider nicht richtig.") 
@@ -70,7 +69,7 @@ def frage4():
     if answer4.lower() == "lax" or answer4.lower() == "4":
         print("Das ist korrekt!")
         print(" ")
-        score == score+1
+        
         
     else:
         print("Das ist leider nicht richtig.")
@@ -85,7 +84,7 @@ def frage5():
     if answer5 == 1807 or answer5 == 2:
         print("Das ist korrekt!")
         print(" ")
-        score == score+1
+        
         
     else:
          print("Das ist leider nicht richtig.")
@@ -101,7 +100,7 @@ def qst1():
     if answer1.lower() == "wal":
         print("Das ist Korrekt!")
         print(" ")
-        score == score+1
+        
         
     else:
         print("Das ist leider nicht richtig.")
@@ -115,7 +114,7 @@ def qst2():
     if answer2.lower() == "internationales phonetisches alphabet":
         print("Das ist richtig!")
         print(" ")
-        score == score+1
+        
         
     else:
         print("Das ist leider nicht richtig.")
@@ -129,7 +128,7 @@ def qst3():
     if answer3.lower() == "leonardo davinci":
         print("Das ist korrekt!")
         print(" ")
-        score == score+1
+        
         
     else:
         print("Das ist leider nicht richtig.") 
@@ -143,7 +142,7 @@ def qst4():
     if answer4.lower() == "lax":
         print("Das ist korrekt!")
         print(" ")
-        score == score+1
+        
         
     else:
         print("Das ist leider nicht richtig.")
@@ -157,7 +156,7 @@ def qst5():
     if answer5 == 1807:
         print("Das ist korrekt!")
         print(" ")
-        score == score+1
+        
         
     else:
          print("Das ist leider nicht richtig.")
@@ -178,9 +177,7 @@ elif choice.lower() == "n":
     qst4()
     qst5()
 
-#Punktestand
-score == score-1
-print("Dein Punktestand beträgt:", score)
+
 
 print("Vielen Dank fürs spielen, ", name, "!")
 
